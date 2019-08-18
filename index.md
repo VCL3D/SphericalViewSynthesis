@@ -1,3 +1,5 @@
+![Omnidirectional Trinocular Stereo](./assets/images/trinocular_3d_scene.png "Omnidirectional Trinocular Stereo")
+
 # Abstract
 
 Learning based approaches for depth perception are limited by the availability of clean training data. 
@@ -9,8 +11,6 @@ Further, we show how to better exploit the expressiveness of traditional CNNs wh
 Finally, given the availability of ground truth depth data, our work is uniquely positioned to compare view synthesis against direct supervision in a consistent and fair manner.
 The results indicate that alternative research directions might be better suited to enable higher quality depth perception.
 Our data, models and code are publicly available at [our project page](https://vcl3d.github.io/SphericalViewSynthesis/).
-
-![Omnidirectional Trinocular Stereo](./assets/images/trinocular_3d_scene.png "Omnidirectional Trinocular Stereo")
 
 ![Network & Supervision](./assets/images/network.png "CNN architecture & different supervision schemes")
 
