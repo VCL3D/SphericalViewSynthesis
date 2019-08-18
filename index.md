@@ -11,12 +11,7 @@
 > Our data, models and code are publicly available at [our project page](https://vcl3d.github.io/SphericalViewSynthesis/).
 
 # Paper
-
-## arXiv
-[![arXiv paper link](https://www.gravatar.com/favicon.ico "arXiv")](https://arxiv.com)
-
-## Supplementary
-[![arXiv paper link](https://www.gravatar.com/favicon.ico "arXiv")](https://arxiv.com)
+[![arXiv paper link](https://www.gravatar.com/favicon.ico "arXiv")](https://arxiv.org)
 
 # Data
 
