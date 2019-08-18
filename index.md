@@ -8,7 +8,7 @@
 > Further, we show how to better exploit the expressiveness of traditional CNNs when applied to the equirectangular domain in an efficient manner.
 > Finally, given the availability of ground truth depth data, our work is uniquely positioned to compare view synthesis against direct supervision in a consistent and fair manner.
 > The results indicate that alternative research directions might be better suited to enable higher quality depth perception.
-> Our data, models and code are publicly available at [https://vcl3d.github.io/SphericalViewSynthesis/](our project page).
+> Our data, models and code are publicly available at [our project page](https://vcl3d.github.io/SphericalViewSynthesis/).
 
 # Data
 
