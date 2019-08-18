@@ -10,6 +10,10 @@
 > The results indicate that alternative research directions might be better suited to enable higher quality depth perception.
 > Our data, models and code are publicly available at [our project page](https://vcl3d.github.io/SphericalViewSynthesis/).
 
+# Paper
+
+[![alt text](https://www.gravatar.com/favicon.ico "Test image")](https://testlink.com)
+
 # Data
 
 # Models
