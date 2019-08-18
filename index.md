@@ -12,6 +12,10 @@ Our data, models and code are publicly available at [our project page](https://v
 
 ![Omnidirectional Trinocular Stereo](./assets/images/trinocular_3d_scene.png "Omnidirectional Trinocular Stereo")
 
+![Network & Supervision](./assets/images/network.png "CNN architecture & different supervision schemes")
+
+![Spherical Disparity Model](./assets/images/spherical_disparity_model.png "Geometrically Derived Spherical Disparity Model")
+
 # Paper
 [![arXiv paper link](https://www.gravatar.com/favicon.ico "arXiv")](https://arxiv.org)
 
