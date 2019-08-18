@@ -1,4 +1,10 @@
 title: Spherical View Synthesis
 description: for Self-Supervised 360<sup>o</sup> Depth Estimation
-show_downloads: false
+show_downloads: true
 theme: jekyll-theme-architect
+
+github:
+  zip_url: http://example.com/download.zip
+  tar_url: http://test.com/download.tar
+  owner_url: zokin.github.io
+  another_url: another value
