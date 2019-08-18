@@ -10,6 +10,8 @@ Finally, given the availability of ground truth depth data, our work is uniquely
 The results indicate that alternative research directions might be better suited to enable higher quality depth perception.
 Our data, models and code are publicly available at [our project page](https://vcl3d.github.io/SphericalViewSynthesis/).
 
+![Omnidirectional Trinocular Stereo](./assets/images/trinocular_3d_scene.png "Omnidirectional Trinocular Stereo")
+
 # Paper
 [![arXiv paper link](https://www.gravatar.com/favicon.ico "arXiv")](https://arxiv.org)
 
