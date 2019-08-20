@@ -26,5 +26,17 @@ Our data, models and code are publicly available at [our project page](https://v
 # Models
 
 # Citation
-
+<p style="
+    width: auto;
+    background-color: #f2f2f2;
+    font-size: small;
+">
+  <pre>
+    <code>
+      @inproceedings{
+        karakottas2019Surface
+      }
+    </code>
+  </pre>
+</p>
 # References
