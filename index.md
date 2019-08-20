@@ -20,7 +20,7 @@ Our data, models and code are publicly available at [our project page](https://v
 [![arXiv paper link](./assets/images/paper_all_pages.png "arXiv")](https://arxiv.org)
 
 # Supplementary
-[![local supplementary link](./assets/images/suplementary_all_pages.png "arXiv")](https://arxiv.org)
+[![local supplementary link](./assets/images/supplementary_all_pages.png "arXiv")](https://arxiv.org)
 
 # Code
 
