@@ -19,10 +19,18 @@ Our data, models and code are publicly available at [our project page](https://v
 # Paper
 [![arXiv paper link](./assets/images/paper_all_pages.png "arXiv")](https://arxiv.org)
 
+# Supplementary
+[![local supplementary link](./assets/images/suplementary_all_pages.png "arXiv")](https://arxiv.org)
+
+# Code
+
+
 # Data
 Coming Soon...
+
 # Models
 Coming Soon...
+
 # Citation
 <!--<p style="
     width: auto;
@@ -35,5 +43,12 @@ Coming Soon...
     </code>
   </pre>
 </p>-->
+
+# Authors
+
+
+# Contact
+
+
 # References
 Coming Soon...
