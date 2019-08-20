@@ -26,7 +26,7 @@ Coming Soon...
 # Models
 Coming Soon...
 # Citation
-<p style="
+<!--<p style="
     width: auto;
     background-color: #f2f2f2;
     font-size: small;
@@ -36,6 +36,6 @@ Coming Soon...
       Coming Soon...
     </code>
   </pre>
-</p>
+</p>-->
 # References
 Coming Soon...
