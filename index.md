@@ -17,7 +17,7 @@ Our data, models and code are publicly available at [our project page](https://v
 ![Spherical Disparity Model](./assets/images/spherical_disparity_model.png "Geometrically Derived Spherical Disparity Model")
 
 # Paper
-[![arXiv paper link](./assets/images/paper_all_pages.png "arXiv" | width=100)](https://arxiv.org)
+[![arXiv paper link](./assets/images/paper_all_pages.png | width=100 "arXiv")](https://arxiv.org)
 
 # Supplementary
 [![local supplementary link](./assets/images/suplementary_all_pages.png "arXiv")](https://arxiv.org)
