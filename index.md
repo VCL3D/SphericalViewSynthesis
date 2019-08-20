@@ -34,7 +34,7 @@ Our data, models and code are publicly available at [our project page](https://v
   <pre>
     <code>
       @inproceedings{
-        karakottas2019Surface
+        zioulis2019Spherical
       }
     </code>
   </pre>
