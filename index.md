@@ -18,7 +18,7 @@ Our data, models and code are publicly available at [our project page](https://v
 
 # Paper
 <a href="https://arxiv.org">
-  <img src="./assets/images/paper_thumb.png" width="100">
+  <img src="./assets/images/paper_thumb.png" width="200">
 </a>
 
 # Data
