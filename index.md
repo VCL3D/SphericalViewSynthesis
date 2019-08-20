@@ -22,9 +22,9 @@ Our data, models and code are publicly available at [our project page](https://v
 </a>
 
 # Data
-
+Coming Soon...
 # Models
-
+Coming Soon...
 # Citation
 <p style="
     width: auto;
@@ -33,10 +33,9 @@ Our data, models and code are publicly available at [our project page](https://v
 ">
   <pre>
     <code>
-      @inproceedings{
-        zioulis2019Spherical
-      }
+      Coming Soon...
     </code>
   </pre>
 </p>
 # References
+Coming Soon...
