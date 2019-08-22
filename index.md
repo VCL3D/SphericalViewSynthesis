@@ -28,10 +28,16 @@ Coming Soon...
 
 # Publication
 ## Paper
+<!--
 [![arXiv paper link](./assets/images/paper_all_pages.png "arXiv")](https://arxiv.org)
+-->
+<a href="https://arxiv.org"><img src="./assets/images/paper_all_pages.png" width="700" title="arXiv paper link" alt="arXiv"/></a>
 
 ## Supplementary
+<!--
 [![local supplementary link](./assets/images/supplementary_all_pages.png "arXiv")](https://arxiv.org)
+-->
+<a href="https://arxiv.org"><img src="./assets/images/supplementary_all_pages.png" width="700" title="supplementary link" alt="arXiv"/></a>
 
 ## Authors
 [Nikolaos Zioulis](zokin.github.io), [Antonis Karakottas](https://ankarako.github.io/), [Dimitris Zarpalas](https://www.iti.gr/iti/people/Dimitrios_Zarpalas.html), [Federico Alvarez](https://www.researchgate.net/profile/Federico_Alvarez3) and [Petros Daras](https://www.iti.gr/iti/people/Petros_Daras.html)
@@ -56,7 +62,7 @@ This project has received funding from the European Union’s Horizon 2020 resea
 
 We also gratefully acknowledge NVIDIA corporation for the donation of a NVIDIA Titan X GPU used for this research. 
 
-<img src="./assets/images/en_square_cef_logo_0.png" width="200"/><img src="./assets/images/h360.png" width="200"/><img src="./assets/images/NVLogo_2D.jpg" width="200"/>
+<img src="./assets/images/en_square_cef_logo_0.png" width="150"/><img src="./assets/images/h360.png" width="150"/><img src="./assets/images/NVLogo_2D.jpg" width="150"/>
 
 <!--
 ![EC Funding  Logo](./assets/images/en_square_cef_logo_0.png "EC Funding Logo")
