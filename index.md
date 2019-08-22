@@ -12,40 +12,37 @@ Finally, given the availability of ground truth depth data, our work is uniquely
 The results indicate that alternative research directions might be better suited to enable higher quality depth perception.
 Our data, models and code are publicly available at [our project page](https://vcl3d.github.io/SphericalViewSynthesis/).
 
-![Network & Supervision](./assets/images/network.png "CNN architecture & supervision schemes")
-
+# Model
 ![Spherical Disparity Model](./assets/images/spherical_disparity_model.png "Geometrically Derived Spherical Disparity Model")
 
-# Paper
-[![arXiv paper link](./assets/images/paper_all_pages.png "arXiv")](https://arxiv.org)
+## Code
+![Network & Supervision](./assets/images/network.png "CNN architecture & supervision schemes")
 
-# Supplementary
-[![local supplementary link](./assets/images/supplementary_all_pages.png "arXiv")](https://arxiv.org)
-
-# Code
-
+## Pre-trained Models
+Coming Soon...
 
 # Data
 Coming Soon...
 
-# Models
-Coming Soon...
+# Publication
+## Paper
+[![arXiv paper link](./assets/images/paper_all_pages.png "arXiv")](https://arxiv.org)
 
-# Citation
-<!--<p style="
-    width: auto;
-    background-color: #f2f2f2;
-    font-size: small;
-">
-  <pre>
-    <code>
-      Coming Soon...
-    </code>
-  </pre>
-</p>-->
+## Supplementary
+[![local supplementary link](./assets/images/supplementary_all_pages.png "arXiv")](https://arxiv.org)
 
-# Authors
+## Authors
 
+## Citation
+If you use this code and/or data, please cite the following:
+```
+@inproceedings{zioulis2019spherical,
+  author       = "Zioulis, Nikolaos and Karakottas, Antonis and Zarpalas, Dimitris and Alvarez, Federic and Daras, Petros",
+  title        = "Spherical View Synthesis for Self-Supervised $360^o$ Depth Estimation",
+  booktitle    = "International Conference on 3D Vision (3DV)",
+  year         = "2019"
+}
+```
 
 # Contact
 
