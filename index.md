@@ -47,7 +47,7 @@ If you use this code and/or data, please cite the following:
 ```
 
 # Contact
-
+Please direct any questions related to the code, models and dataset to nzioulis@iti.gr or post a [GitHub issue](https://github.com/VCL3D/SphericalViewSynthesis/issues).
 
 # References
 Coming Soon...
