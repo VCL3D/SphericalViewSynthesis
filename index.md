@@ -34,6 +34,8 @@ Coming Soon...
 [![local supplementary link](./assets/images/supplementary_all_pages.png "arXiv")](https://arxiv.org)
 
 ## Authors
+[Nikolaos Zioulis](zokin.github.io), [Antonis Karakottas](https://ankarako.github.io/), [Dimitris Zarpalas](https://www.iti.gr/iti/people/Dimitrios_Zarpalas.html), [Federico Alvarez](https://www.researchgate.net/profile/Federico_Alvarez3) and [Petros Daras](https://www.iti.gr/iti/people/Petros_Daras.html)
+[Visual Computing Lab (VCL)](http://vcl.iti.gr/)
 
 ## Citation
 If you use this code and/or data, please cite the following:
