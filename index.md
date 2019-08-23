@@ -60,7 +60,10 @@ We thank the anonymous reviewers for helpful comments.
 
 This project has received funding from the European Union’s Horizon 2020 research and innovation programme [Hyper360](http://hyper360.eu/) under grant agreement No 761934.
 
+<!--
 We also gratefully acknowledge NVIDIA corporation for the donation of a NVIDIA Titan X GPU used for this research. 
+-->
+We would like to thank NVIDIA for supporting our research with the donation of a Titan Xp GPU through the NVIDIA GPU Grant Program.
 
 <img src="./assets/images/en_square_cef_logo_0.png" width="150"/><img src="./assets/images/h360.png" width="150"/><img src="./assets/images/NVLogo_2D.jpg" width="150"/>
 
