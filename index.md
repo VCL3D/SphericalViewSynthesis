@@ -63,7 +63,7 @@ This project has received funding from the European Union’s Horizon 2020 resea
 <!--
 We also gratefully acknowledge NVIDIA corporation for the donation of a NVIDIA Titan X GPU used for this research. 
 -->
-We would like to thank NVIDIA for supporting our research with the donation of a Titan Xp GPU through the NVIDIA GPU Grant Program.
+We would like to thank NVIDIA for supporting our research with the donation of a NVIDIA Titan Xp GPU through the NVIDIA GPU Grant Program.
 
 <img src="./assets/images/en_square_cef_logo_0.png" width="150"/><img src="./assets/images/h360.png" width="150"/><img src="./assets/images/NVLogo_2D.jpg" width="150"/>
 
@@ -74,7 +74,7 @@ We would like to thank NVIDIA for supporting our research with the donation of a
 -->
 
 # Contact
-Please direct any questions related to the code, models and dataset to nzioulis@iti.gr or post a [GitHub issue](https://github.com/VCL3D/SphericalViewSynthesis/issues).
+Please direct any questions related to the code, models and dataset to [nzioulis@iti.gr](mailto:nzioulis@iti.gr) or post a [GitHub issue](https://github.com/VCL3D/SphericalViewSynthesis/issues).
 
 # References
 Coming Soon...
