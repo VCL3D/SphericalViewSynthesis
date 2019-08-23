@@ -12,6 +12,8 @@ Finally, given the availability of ground truth depth data, our work is uniquely
 The results indicate that alternative research directions might be better suited to enable higher quality depth perception.
 Our data, models and code are publicly available at [our project page](https://vcl3d.github.io/SphericalViewSynthesis/).
 
+___
+
 # Model
 ![Spherical & Cartesian Coordinates](./assets/images/spherical_cartesian.png "Spherical & Cartesian Coordinates")
 ![Partial Derivatives of Spherical to Cartesian Coordinates](./assets/images/spherical_derivatives.png "Partial Derivatives of Spherical to Cartesian Coordinates")
