@@ -60,7 +60,7 @@ If you use this code and/or data, please cite the following:
 ## Acknowledgements
 We thank the anonymous reviewers for helpful comments.
 
-This project has received funding from the European Union’s Horizon 2020 research and innovation programme [Hyper360](http://hyper360.eu/) under grant agreement No 761934.
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme [__Hyper360__](http://hyper360.eu/) under grant agreement No 761934.
 
 <!--
 We also gratefully acknowledge NVIDIA corporation for the donation of a NVIDIA Titan X GPU used for this research. 
