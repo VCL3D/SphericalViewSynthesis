@@ -34,7 +34,7 @@ Our PyTorch pre-trained weights are released [here](https://github.com/VCL3D/Sph
 ___
 
 # Data
-The 360<sup>o</sup> stereo data used to train the self-supervised models are available [here](https://vcl3d.github.io/Indoors360Dataset/) and are part of a larger dataset [1,2] that contains rendered color images, depth and normal maps for each viewpoint in a trinocular setup.
+The 360<sup>o</sup> stereo data used to train the self-supervised models are available [here](https://vcl3d.github.io/Indoors360Dataset/) and are part of a larger dataset __[1, 2]__ that contains rendered color images, depth and normal maps for each viewpoint in a trinocular setup.
 
 ___
 
@@ -90,4 +90,4 @@ We would like to thank NVIDIA for supporting our research with the donation of a
 Please direct any questions related to the code, models and dataset to [nzioulis@iti.gr](mailto:nzioulis@iti.gr) or post a [GitHub issue](https://github.com/VCL3D/SphericalViewSynthesis/issues).
 
 # References
-Coming Soon...
+__[1]__ Zioulis, N., Karakottas, A., Zarpalas, D., & Daras, P. (2018). Omnidepth: Dense depth estimation for indoors spherical panoramas. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 448-465).
