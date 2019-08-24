@@ -63,6 +63,7 @@ If you use this code and/or data, please cite the following:
   author       = "Zioulis, Nikolaos and Karakottas, Antonis and Zarpalas, Dimitris and Alvarez, Federic and Daras, Petros",
   title        = "Spherical View Synthesis for Self-Supervised $360^o$ Depth Estimation",
   booktitle    = "International Conference on 3D Vision (3DV)",
+  month        = "September",
   year         = "2019"
 }
 ```
