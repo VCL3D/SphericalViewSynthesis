@@ -23,30 +23,40 @@ ___
 ![Network & Supervision](./assets/images/network.png "CNN architecture & supervision schemes")
 
 ## Pre-trained Models
-Coming Soon...
+Our PyTorch pre-trained weights are released [here](https://github.com/VCL3D/SphericalViewSynthesis/releases) and contain these model variants:
+* __UD__ @ epoch XX
+* __TC2__ @ epoch XX
+* __TC4__ @ epoch XX
+* __TC6__ @ epoch XX
+* __TC8__ @ epoch XX
+* __LR__ @ epoch XX
+
+___
 
 # Data
-Coming Soon...
+The 360<sup>o</sup> stereo data used to train the self-supervised models are available [here](https://vcl3d.github.io/Indoors360Dataset/) and are part of a larger dataset [1,2] that contains rendered color images, depth and normal maps for each viewpoint in a trinocular setup.
+
+___
 
 # Publication
-## Paper
+### Paper
 <!--
 [![arXiv paper link](./assets/images/paper_all_pages.png "arXiv")](https://arxiv.org)
 -->
 <a href="https://arxiv.org"><img src="./assets/images/paper_all_pages.png" width="700" title="arXiv paper link" alt="arXiv"/></a>
 
-## Supplementary
+### Supplementary
 <!--
 [![local supplementary link](./assets/images/supplementary_all_pages.png "arXiv")](https://arxiv.org)
 -->
 <a href="https://arxiv.org"><img src="./assets/images/supplementary_all_pages.png" width="700" title="supplementary link" alt="arXiv"/></a>
 
-## Authors
+### Authors
 [Nikolaos Zioulis](zokin.github.io), [Antonis Karakottas](https://ankarako.github.io/), [Dimitris Zarpalas](https://www.iti.gr/iti/people/Dimitrios_Zarpalas.html), [Federico Alvarez](https://www.researchgate.net/profile/Federico_Alvarez3) and [Petros Daras](https://www.iti.gr/iti/people/Petros_Daras.html)
 
 [Visual Computing Lab (VCL)](http://vcl.iti.gr/)
 
-## Citation
+### Citation
 If you use this code and/or data, please cite the following:
 ```
 @inproceedings{zioulis2019spherical,
@@ -57,7 +67,7 @@ If you use this code and/or data, please cite the following:
 }
 ```
 
-## Acknowledgements
+# Acknowledgements
 We thank the anonymous reviewers for helpful comments.
 
 This project has received funding from the European Union’s Horizon 2020 research and innovation programme [__Hyper360__](http://hyper360.eu/) under grant agreement No 761934.
