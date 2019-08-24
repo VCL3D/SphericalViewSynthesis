@@ -29,6 +29,7 @@ Our PyTorch pre-trained weights are released [here](https://github.com/VCL3D/Sph
 * __TC6__ @ epoch XX
 * __TC8__ @ epoch XX
 * __LR__ @ epoch XX
+
 ___
 
 # Data
@@ -88,3 +89,4 @@ Please direct any questions related to the code, models and dataset to [nzioulis
 
 # References
 __[1]__ Zioulis, N., Karakottas, A., Zarpalas, D., & Daras, P. (2018). Omnidepth: Dense depth estimation for indoors spherical panoramas. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 448-465).
+__[2]__ 
