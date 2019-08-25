@@ -11,6 +11,7 @@ Further, we show how to better exploit the expressiveness of traditional CNNs wh
 Finally, given the availability of ground truth depth data, our work is uniquely positioned to compare view synthesis against direct supervision in a consistent and fair manner.
 The results indicate that alternative research directions might be better suited to enable higher quality depth perception.
 Our data, models and code are publicly available at [our project page](https://vcl3d.github.io/SphericalViewSynthesis/).
+
 ___
 
 # Model
@@ -34,6 +35,7 @@ ___
 
 # Data
 The 360<sup>o</sup> stereo data used to train the self-supervised models are available [here](https://vcl3d.github.io/Indoors360Dataset/) and are part of a larger dataset __[1, 2]__ that contains rendered color images, depth and normal maps for each viewpoint in a trinocular setup.
+
 ___
 
 # Publication
