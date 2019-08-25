@@ -89,4 +89,5 @@ Please direct any questions related to the code, models and dataset to [nzioulis
 
 # References
 __[1]__ Zioulis, N., Karakottas, A., Zarpalas, D., & Daras, P. (2018). Omnidepth: Dense depth estimation for indoors spherical panoramas. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 448-465).
+
 __[2]__ 
