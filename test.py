@@ -42,7 +42,7 @@ def parse_arguments(args):
     parser.add_argument("--baseline", type=float, default=0.26, help = "Stereo baseline distance (in either axis).")
     parser.add_argument("--median_scale", required=False, default=False, action="store_true", help = "Perform median scaling before calculating metrics.")
     parser.add_argument("--spherical_weights", required=False, default=False, action="store_true", help = "Use spherical weighting when calculating the metrics.")
-    parser.add_argument("--spherical_sampling", required=False, default=False, action="store_true", help = "Use spherical weighting when calculating the metrics.")
+    parser.add_argument("--spherical_sampling", required=False, default=False, action="store_true", help = "Use spherical sampling when calculating the metrics.")
     # save options    
     parser.add_argument("--save_recon", required=False, default=False, action="store_true", help = "Flag to toggle reconstructed result saving.")
     parser.add_argument("--save_original", required=False, default=False, action="store_true", help = "Flag to toggle input (image) saving.")
@@ -89,7 +89,7 @@ def compute_errors(gt, pred, invalid_mask, weights, sampling, mode='cpu', median
     return (abs_rel_mean, abs_rel), (sq_rel_mean, sq_rel), (rmse_mean, rmse), \
         (rmse_log_mean, rmse_log), delta1, delta2, delta3
 
-def meridian_sampling(grid, percentage):
+def spiral_sampling(grid, percentage):
     b, c, h, w = grid.size()    
     N = torch.tensor(h*w*percentage).int().float()    
     sampling = torch.zeros_like(grid)[:, 0, :, :].unsqueeze(1)
@@ -141,7 +141,7 @@ if __name__ == "__main__":
     weights = S360.weights.theta_confidence(
         S360.grid.create_spherical_grid(width)
     ).to(device) if args.spherical_weights else torch.ones(1, 1, height, width).to(device)
-    sampling = meridian_sampling(S360.grid.create_image_grid(width, height), 0.25).to(device) \
+    sampling = spiral_sampling(S360.grid.create_image_grid(width, height), 0.25).to(device) \
         if args.spherical_sampling else torch.ones(1, 1, height, width).to(device)
     # loop over test set
     model.eval()
