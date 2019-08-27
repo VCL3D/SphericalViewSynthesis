@@ -25,14 +25,14 @@ ___
 Our training and testing code that can be used to reproduce our experiments can be found at the corresponding [GitHub repository](https://github.com/VCL3D/SphericalViewSynthesis).
 
 Different training scripts are available for each variant:
-* `train_ud.py` for vertical stereo (__UD__) training
-* `train_lr.py` for horizontal stereo (__LR__) training
-* `train_tc.py` for trinocular stereo (__TC__) training, using the `photo_ratio` parameter to train the different __TC__ variants.
-* `train_sv.py` for supervised (__SV__) training
+* [`train_ud.py`](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/train_ud.py) for vertical stereo (__UD__) training
+* [`train_lr.py`](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/train_lr.py) for horizontal stereo (__LR__) training
+* [`train_tc.py`](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/train_tc.py) for trinocular stereo (__TC__) training, using the `photo_ratio` parameter to train the different __TC__ variants.
+* [`train_sv.py`](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/train_sv.py) for supervised (__SV__) training
 
-The PyTorch implementation of the differentiable depth-image-based forward rendering (_splatting_), presented in __[3]__ and originally implemented in TensorFlow, is also [available](https://github.com/VCL3D/SphericalViewSynthesis/blob/9d8fcee90d2601c396c27d8261fb3c786e3e46a7/supervision/splatting.py#L73).
+The PyTorch implementation of the differentiable depth-image-based forward rendering ([`_splatting_`](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/supervision/splatting.py#L9)), presented in __[3]__ and originally implemented in TensorFlow, is also [available](https://github.com/VCL3D/SphericalViewSynthesis/blob/9d8fcee90d2601c396c27d8261fb3c786e3e46a7/supervision/splatting.py#L73).
 
-Our evaluation script `test.py` also includes the metrics calculation adaptation to spherical data that includes [spherical weighting](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/spherical/weights.py#L8) and [spiral sampling](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/test.py#L92).
+Our evaluation script [`test.py`](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/test.py) also includes the metrics calculation adaptation to spherical data that includes [spherical weighting](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/spherical/weights.py#L8) and [spiral sampling](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/test.py#L92).
 
 ## Pre-trained Models
 Our PyTorch pre-trained weights are released [here](https://github.com/VCL3D/SphericalViewSynthesis/releases) and contain these model variants:
