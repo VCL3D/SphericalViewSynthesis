@@ -20,13 +20,13 @@ Spherical stereo comprises two spherical viewpoints that image their surrounding
 These are related via their 3D displacement (_i.e._ `baseline`), defined in a global Cartesian coordinate system.
 
 <p align="center">
-<img src="./assets/images/spherical.png" width="200"></img><img src="./assets/images/cartesian.png" width="200"/></img>
+<img src="./assets/images/spherical.png" width="250"/><<img src="./assets/images/cartesian.png" width="250"/>
 </p>
 
 By taking the analytical partial derivatives of the Cartesian to spherical conversion equations, a formulation of spherical angular disparity in terms of the radius (_i.e._ `depth`) and the `baseline` is made.
 
 <p align="center">
-<img src="./assets/images/annotated_spherical_derivatives.png" width="600"/>
+<img src="./assets/images/annotated_spherical_derivatives.png" width="700"/>
 </p>
 
 <!--
