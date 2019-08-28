@@ -20,14 +20,20 @@ Spherical stereo comprises two spherical viewpoints that image their surrounding
 These are related via their 3D displacement (_i.e._ `baseline`), defined in a global Cartesian coordinate system.
 
 <p align="center">
-<img src="./assets/images/spherical.png" width="250"/><<img src="./assets/images/cartesian.png" width="250"/>
+  <img src="./assets/images/spherical.png" width="200"/><img src="./assets/images/cartesian.png" width="200"/>
 </p>
 
 By taking the analytical partial derivatives of the Cartesian to spherical conversion equations, a formulation of spherical angular disparity in terms of the radius (_i.e._ `depth`) and the `baseline` is made.
 
 <p align="center">
-<img src="./assets/images/annotated_spherical_derivatives.png" width="700"/>
+  <img src="./assets/images/annotated_spherical_derivatives.png" width="700"/>
 </p>
+
+Considering a horizontal (red, &#x1F534;) stereo setup (_i.e._ displacement only along the `x` axis) as well as a vertical (blue, &#x1F535;) stereo setup (_i.e._ displacement only along the `y` axis) it is apparent that the former includes both longitudinal as well as latitudinal angular displacements, while the latter one only includes latitudinal, as also illustrated in the following figures.
+
+![Spherical Angular Disparity for 2 Horizontally Displaced Viewpoints](./assets/images/horizontal_disparity.png)
+
+![Spherical Angular Disparity for 2 Vertically Displaced Viewpoints](./assets/images/vertical_disparity.png)
 
 <!--
 ![Spherical & Cartesian Coordinates](./assets/images/spherical_cartesian.png "Spherical & Cartesian Coordinates")
