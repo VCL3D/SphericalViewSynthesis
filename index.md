@@ -14,10 +14,30 @@ Our data, models and code are publicly available at [our project page](https://v
 
 ___
 
-# Model
+# Spherical Disparity
+We derive our spherical disparity model under a purely geometrical formulation.
+Spherical stereo comprises two spherical viewpoints that image their surroundings in their local spherical coordinate system.
+These are related via their 3D displacement (_i.e._ `baseline`), defined in a global Cartesian coordinate system.
+
+<p align="center">
+<img src="./assets/images/spherical.png" width="200"></img><img src="./assets/images/cartesian.png" width="200"/></img>
+</p>
+
+By taking the analytical partial derivatives of the Cartesian to spherical conversion equations, a formulation of spherical angular disparity in terms of the radius (_i.e._ `depth`) and the `baseline` is made.
+
+<p align="center">
+<img src="./assets/images/annotated_spherical_derivatives.png" width="600"/>
+</p>
+
+<!--
 ![Spherical & Cartesian Coordinates](./assets/images/spherical_cartesian.png "Spherical & Cartesian Coordinates")
+-->
+<!--
 ![Partial Derivatives of Spherical to Cartesian Coordinates](./assets/images/spherical_derivatives.png "Partial Derivatives of Spherical to Cartesian Coordinates")
+-->
+<!--
 ![Spherical Disparity Model](./assets/images/spherical_disparity_model.png "Geometrically Derived Spherical Disparity Model")
+-->
 
 ## Code
 [![Network & Supervision](./assets/images/network.png "CNN architecture & supervision schemes")](https://github.com/VCL3D/SphericalViewSynthesis)
