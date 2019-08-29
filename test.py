@@ -206,7 +206,8 @@ if __name__ == "__main__":
                 image_visualizer.show_separate_images(left_rgb, 'input')
                 image_visualizer.show_separate_images(right_rgb, 'target')
                 image_visualizer.show_map(left_depth_pred, 'depth')
-                image_visualizer.show_separate_images(right_rgb_t, 'recon')
+                if args.save_recon:
+                    image_visualizer.show_separate_images(right_rgb_t, 'recon')
         mean_errors = errors.mean(1)
         error_names = ['abs_rel','sq_rel','rmse','log_rmse','delta1','delta2','delta3']
         print("Results ({}): ".format(args.name))
