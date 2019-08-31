@@ -37,16 +37,6 @@ Considering a horizontal (red, &#x1F534;) stereo setup (_i.e._ displacement only
 
 As a result, we can use this depth derived disparity formulation to self-supervise spherical depth estimation. Crucially, for the horizontal case, this is only possible using depth-image-based rendering (DIBR) instead of inverse warping, as it helps in overcoming the irregular remappings of stereo spherical imaging. We rely on a recently presented differentiable DIRB scheme (__\[[3](#LSI)\]__), and additionally employ spherical weighting as an attention mechanism to address inconsistent gradient flows at the singularities. Finally, we also experiment with trinocular stereo placements and with infusing spherical spatial knowledge into the network implicity through the use of Coordinate Convolutions (__\[[4](#CoordConv)\]__).
 
-<!--
-![Spherical & Cartesian Coordinates](./assets/images/spherical_cartesian.png "Spherical & Cartesian Coordinates")
--->
-<!--
-![Partial Derivatives of Spherical to Cartesian Coordinates](./assets/images/spherical_derivatives.png "Partial Derivatives of Spherical to Cartesian Coordinates")
--->
-<!--
-![Spherical Disparity Model](./assets/images/spherical_disparity_model.png "Geometrically Derived Spherical Disparity Model")
--->
-
 ## Code
 [![Network & Supervision](./assets/images/network.png "CNN architecture & supervision schemes")](https://github.com/VCL3D/SphericalViewSynthesis)
 
@@ -58,7 +48,7 @@ Different training scripts are available for each variant:
 * [`train_tc.py`](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/train_tc.py) for trinocular stereo (__TC__) training, using the `photo_ratio` parameter to train the different __TC__ variants.
 * [`train_sv.py`](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/train_sv.py) for supervised (__SV__) training
 
-The PyTorch implementation of the differentiable depth-image-based forward rendering ([_`splatting`_](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/supervision/splatting.py#L9)), presented in __[3]__ and originally implemented in [TensorFlow](https://github.com/google/layered-scene-inference), is also [available](https://github.com/VCL3D/SphericalViewSynthesis/blob/9d8fcee90d2601c396c27d8261fb3c786e3e46a7/supervision/splatting.py#L73).
+The PyTorch implementation of the differentiable depth-image-based forward rendering ([_`splatting`_](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/supervision/splatting.py#L9)), presented in __\[[3](#LSI)\]__ and originally implemented in [TensorFlow](https://github.com/google/layered-scene-inference), is also [available](https://github.com/VCL3D/SphericalViewSynthesis/blob/9d8fcee90d2601c396c27d8261fb3c786e3e46a7/supervision/splatting.py#L73).
 
 Our evaluation script [`test.py`](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/test.py) also includes the metrics calculation adaptation to spherical data that includes [spherical weighting](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/spherical/weights.py#L8) and [spiral sampling](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/test.py#L92).
 
