@@ -52,7 +52,7 @@ The PyTorch implementation of the differentiable depth-image-based forward rende
 
 Our evaluation script [`test.py`](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/test.py) also includes the metrics calculation adaptation to spherical data that includes [spherical weighting](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/spherical/weights.py#L8) and [spiral sampling](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/test.py#L92).
 
-## Pre-trained Models
+## Pre-trained Models (Coming Soon ...)
 Our PyTorch pre-trained models (corresponding to those reported in the paper) are released [here](https://github.com/VCL3D/SphericalViewSynthesis/releases) and contain these model variants:
 * __UD__ @ epoch XX
 * __TC2__ @ epoch XX
