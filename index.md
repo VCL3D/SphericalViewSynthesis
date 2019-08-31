@@ -58,7 +58,7 @@ Different training scripts are available for each variant:
 * [`train_tc.py`](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/train_tc.py) for trinocular stereo (__TC__) training, using the `photo_ratio` parameter to train the different __TC__ variants.
 * [`train_sv.py`](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/train_sv.py) for supervised (__SV__) training
 
-The PyTorch implementation of the differentiable depth-image-based forward rendering ([_`splatting`_](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/supervision/splatting.py#L9)), presented in __[3]__ and originally implemented in TensorFlow, is also [available](https://github.com/VCL3D/SphericalViewSynthesis/blob/9d8fcee90d2601c396c27d8261fb3c786e3e46a7/supervision/splatting.py#L73).
+The PyTorch implementation of the differentiable depth-image-based forward rendering ([_`splatting`_](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/supervision/splatting.py#L9)), presented in __[3]__ and originally implemented in [TensorFlow](https://github.com/google/layered-scene-inference), is also [available](https://github.com/VCL3D/SphericalViewSynthesis/blob/9d8fcee90d2601c396c27d8261fb3c786e3e46a7/supervision/splatting.py#L73).
 
 Our evaluation script [`test.py`](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/test.py) also includes the metrics calculation adaptation to spherical data that includes [spherical weighting](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/spherical/weights.py#L8) and [spiral sampling](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/test.py#L92).
 
@@ -80,15 +80,9 @@ ___
 
 # Publication
 ### Paper
-<!--
-[![arXiv paper link](./assets/images/paper_all_pages.png "arXiv")](https://arxiv.org)
--->
 <a href="https://arxiv.org"><img src="./assets/images/paper_all_pages.png" width="700" title="arXiv paper link" alt="arXiv"/></a>
 
 ## Supplementary
-<!--
-[![local supplementary link](./assets/images/supplementary_all_pages.png "arXiv")](https://arxiv.org)
--->
 <a href="https://arxiv.org"><img src="./assets/images/supplementary_all_pages.png" width="700" title="supplementary link" alt="arXiv"/></a>
 
 ## Authors
@@ -113,18 +107,9 @@ We thank the anonymous reviewers for helpful comments.
 
 This project has received funding from the European Union’s Horizon 2020 research and innovation programme [__Hyper360__](http://hyper360.eu/) under grant agreement No 761934.
 
-<!--
-We also gratefully acknowledge NVIDIA corporation for the donation of a NVIDIA Titan X GPU used for this research. 
--->
 We would like to thank NVIDIA for supporting our research with the donation of a NVIDIA Titan Xp GPU through the NVIDIA GPU Grant Program.
 
 <img src="./assets/images/en_square_cef_logo_0.png" width="150"/><img src="./assets/images/h360.png" width="150"/><img src="./assets/images/NVLogo_2D.jpg" width="150"/>
-
-<!--
-![EC Funding  Logo](./assets/images/en_square_cef_logo_0.png "EC Funding Logo")
-![Hyper360 Logo](./assets/images/h360.png "Hyper360 Logo")
-![NVIDIA Logo](./assets/images/NVLogo_2D.jpg "NVIDIA Logo")
--->
 
 # Contact
 Please direct any questions related to the code, models and dataset to [nzioulis@iti.gr](mailto:nzioulis@iti.gr) or post a [GitHub issue](https://github.com/VCL3D/SphericalViewSynthesis/issues).
@@ -133,3 +118,7 @@ Please direct any questions related to the code, models and dataset to [nzioulis
 __[1]__ Zioulis, N., Karakottas, A., Zarpalas, D., & Daras, P. (2018). Omnidepth: Dense depth estimation for indoors spherical panoramas. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 448-465).
 
 __[2]__ 
+
+__[3]__ Tulsiani, S., Tucker, R., & Snavely, N. (2018). Layer-structured 3d scene inference via view synthesis. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 302-317).
+
+__[4]__ Liu, R., Lehman, J., Molino, P., Such, F. P., Frank, E., Sergeev, A., & Yosinski, J. (2018). An intriguing failing of convolutional neural networks and the coordconv solution. In Advances in Neural Information Processing Systems (NIPS) (pp. 9605-9616).
