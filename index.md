@@ -107,7 +107,7 @@ Please direct any questions related to the code, models and dataset to [nzioulis
 # References
 <a name="OmniDepth"/>__[1]__ Zioulis, N., Karakottas, A., Zarpalas, D., & Daras, P. (2018). Omnidepth: Dense depth estimation for indoors spherical panoramas. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 448-465).
 
-<a name="HyperSphere"/>__[2]__ 
+<a name="HyperSphere"/>__[2]__ Karakottas, A., Zioulis, N., Samaras, S., Ataloglou, D., Gkitsas, V., Zarpalas, D., & Daras, P. (2019). 360<sup>o</sup> Surface Regression with a Hyper-sphere Loss. In Proceedings of the International Conference on 3D Vision (3DV).
 
 <a name="LSI"/>__[3]__ Tulsiani, S., Tucker, R., & Snavely, N. (2018). Layer-structured 3d scene inference via view synthesis. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 302-317).
 
