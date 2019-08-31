@@ -35,7 +35,7 @@ Considering a horizontal (red, &#x1F534;) stereo setup (_i.e._ displacement only
 
 ![Spherical Angular Disparity for 2 Vertically Displaced Viewpoints](./assets/images/vertical_disparity.png)
 
-As a result, we can use this depth derived disparity formulation to self-supervise spherical depth estimation. Crucially, for the horizontal case, this is only possible using depth-image-based rendering (DIBR) instead of inverse warping, as it helps in overcoming the irregular remappings of stereo spherical imaging. We rely on a recently presented differentiable DIRB scheme (__[3]__), and additionally employ spherical weighting as an attention mechanism to address inconsistent gradient flows at the singularities. Finally, we also experiment with trinocular stereo placements and with infusing spherical spatial knowledge into the network implicity through the use of Coordinate Convolutions (__[4]__).
+As a result, we can use this depth derived disparity formulation to self-supervise spherical depth estimation. Crucially, for the horizontal case, this is only possible using depth-image-based rendering (DIBR) instead of inverse warping, as it helps in overcoming the irregular remappings of stereo spherical imaging. We rely on a recently presented differentiable DIRB scheme (__[\[3\]](#LSI)__), and additionally employ spherical weighting as an attention mechanism to address inconsistent gradient flows at the singularities. Finally, we also experiment with trinocular stereo placements and with infusing spherical spatial knowledge into the network implicity through the use of Coordinate Convolutions (__[4]__).
 
 <!--
 ![Spherical & Cartesian Coordinates](./assets/images/spherical_cartesian.png "Spherical & Cartesian Coordinates")
@@ -119,6 +119,6 @@ __[1]__ Zioulis, N., Karakottas, A., Zarpalas, D., & Daras, P. (2018). Omnidepth
 
 __[2]__ 
 
-__[3]__ Tulsiani, S., Tucker, R., & Snavely, N. (2018). Layer-structured 3d scene inference via view synthesis. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 302-317).
+<a name="LSI"/> __[3]__ Tulsiani, S., Tucker, R., & Snavely, N. (2018). Layer-structured 3d scene inference via view synthesis. In Proceedings of the European Conference on Computer Vision (ECCV) (pp. 302-317).
 
 __[4]__ Liu, R., Lehman, J., Molino, P., Such, F. P., Frank, E., Sergeev, A., & Yosinski, J. (2018). An intriguing failing of convolutional neural networks and the coordconv solution. In Advances in Neural Information Processing Systems (NIPS) (pp. 9605-9616).
