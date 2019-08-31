@@ -153,7 +153,8 @@ if __name__ == "__main__":
             ''' Data '''
             left_rgb = test_batch['leftRGB'].to(device)            
             left_depth = test_batch['leftDepth'].to(device)
-            right_rgb = test_batch['rightRGB'].to(device)            
+            if 'rightRGB' in test_batch:
+                right_rgb = test_batch['rightRGB'].to(device)            
             mask = (left_depth > args.depth_thres)            
             b, c, h, w = left_rgb.size()            
             ''' Prediction '''
@@ -204,7 +205,8 @@ if __name__ == "__main__":
             ''' Visualize Predictions '''
             if args.visdom_iters > 0 and (counter + 1) % args.visdom_iters <= args.batch_size:                
                 image_visualizer.show_separate_images(left_rgb, 'input')
-                image_visualizer.show_separate_images(right_rgb, 'target')
+                if 'rightRGB' in test_batch:
+                    image_visualizer.show_separate_images(right_rgb, 'target')
                 image_visualizer.show_map(left_depth_pred, 'depth')
                 if args.save_recon:
                     image_visualizer.show_separate_images(right_rgb_t, 'recon')
