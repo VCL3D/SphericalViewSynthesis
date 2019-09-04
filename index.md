@@ -52,14 +52,16 @@ The PyTorch implementation of the differentiable depth-image-based forward rende
 
 Our evaluation script [`test.py`](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/test.py) also includes the adaptation of the metrics calculation to spherical data that includes [spherical weighting](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/spherical/weights.py#L8) and [spiral sampling](https://github.com/VCL3D/SphericalViewSynthesis/blob/d5229a26ec8f5843fa053ef995721ae4f7e61128/test.py#L92).
 
-## Pre-trained Models (Coming Soon ...)
-Our PyTorch pre-trained models (corresponding to those reported in the paper) are released [here](https://github.com/VCL3D/SphericalViewSynthesis/releases) and contain these model variants:
-* __UD__ @ epoch XX
-* __TC2__ @ epoch XX
-* __TC4__ @ epoch XX
-* __TC6__ @ epoch XX
-* __TC8__ @ epoch XX
-* __LR__ @ epoch XX
+## Pre-trained Models
+Our PyTorch pre-trained models (corresponding to those reported in the paper) are available at our [releases](https://github.com/VCL3D/SphericalViewSynthesis/releases) and contain these model variants:
+
+* [__UD__ @ epoch 16](https://github.com/VCL3D/SphericalViewSynthesis/releases/download/UD/ud.pt)
+* [__TC8__ @ epoch 16](https://github.com/VCL3D/SphericalViewSynthesis/releases/download/TC8/tc8.pt)
+* [__TC6__ @ epoch 28](https://github.com/VCL3D/SphericalViewSynthesis/releases/download/TC6/tc6.pt)
+* [__TC4__ @ epoch 17](https://github.com/VCL3D/SphericalViewSynthesis/releases/download/TC4/tc4.pt)
+* [__TC2__ @ epoch 20](https://github.com/VCL3D/SphericalViewSynthesis/releases/download/TC2/tc2.pt)
+* [__LR__ @ epoch 18](https://github.com/VCL3D/SphericalViewSynthesis/releases/download/LR/lr.pt)
+* [__SV__ @ epoch 24](https://github.com/VCL3D/SphericalViewSynthesis/releases/download/SV/sv.pt)
 
 ___
 
