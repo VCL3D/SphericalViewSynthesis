@@ -4,7 +4,7 @@ show_downloads: true
 theme: jekyll-theme-architect
 
 github:
-  zip_url: http://example.com/download.zip
-  tar_url: http://test.com/download.tar
+  data_url: https://vcl3d.github.io/3D60/
+  models_url: https://github.com/VCL3D/SphericalViewSynthesis/releases
   owner_url: https://zokin.github.io
   owner_name: Nikolaos Zioulis
