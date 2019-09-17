@@ -74,8 +74,8 @@ ___
 ### Paper
 <a href="./assets/documents/svs.pdf"><img src="./assets/images/paper_all_pages.png" width="700" title="arXiv paper link" alt="arXiv"/></a>
 
-## Supplementary
-<a href="https://arxiv.org"><img src="./assets/images/supplementary_all_pages.png" width="700" title="supplementary link" alt="arXiv"/></a>
+### Supplementary
+<a href="./assets/documents/supp.pdf"><img src="./assets/images/supplementary_all_pages.png" width="700" title="supplementary link" alt="arXiv"/></a>
 
 ## Authors
 [Nikolaos Zioulis](zokin.github.io), [Antonis Karakottas](https://ankarako.github.io/), [Dimitris Zarpalas](https://www.iti.gr/iti/people/Dimitrios_Zarpalas.html), [Federico Alvarez](https://www.researchgate.net/profile/Federico_Alvarez3) and [Petros Daras](https://www.iti.gr/iti/people/Petros_Daras.html)
