@@ -14,6 +14,12 @@ Our data, models and code are publicly available at [our project page](https://v
 
 ___
 
+# Overview
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7sWUyoJNe-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+___
+
 # Spherical Disparity
 We derive our spherical disparity model under a purely geometrical formulation.
 Spherical stereo comprises two spherical viewpoints that image their surroundings in their local spherical coordinate system.
