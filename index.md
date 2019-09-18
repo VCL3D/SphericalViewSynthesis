@@ -71,10 +71,10 @@ The 360<sup>o</sup> stereo data used to train the self-supervised models are ava
 ___
 
 # Publication
-### Paper
+## Paper
 <a href="./assets/documents/svs.pdf"><img src="./assets/images/paper_all_pages.png" width="700" title="arXiv paper link" alt="arXiv"/></a>
 
-### Supplementary
+## Supplementary
 <a href="./assets/documents/supp.pdf"><img src="./assets/images/supplementary_all_pages.png" width="700" title="supplementary link" alt="arXiv"/></a>
 
 ## Authors
