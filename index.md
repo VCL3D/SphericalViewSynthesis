@@ -77,7 +77,7 @@ ___
 
 # Publication
 ## Paper
-<a href="./assets/documents/svs.pdf"><img src="./assets/images/paper_all_pages.png" width="700" title="arXiv paper link" alt="arXiv"/></a>
+<a href="https://arxiv.org/pdf/1909.08112.pdf"><img src="./assets/images/paper_all_pages.png" width="700" title="arXiv paper link" alt="arXiv"/></a>
 
 ## Supplementary
 <a href="./assets/documents/supp.pdf"><img src="./assets/images/supplementary_all_pages.png" width="700" title="supplementary link" alt="arXiv"/></a>
