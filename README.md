@@ -1,5 +1,7 @@
 # Spherical View Synthesis for Self-Supervised 360<sup><b>o</b></sup> Depth Estimation
 
+[![Paper](http://img.shields.io/badge/paper-arxiv.1909.08112-critical.svg?style=plastic)](https://arxiv.org/pdf/1909.08112.pdf)
+[![Conference](http://img.shields.io/badge/3DV-2019-blue.svg?style=plastic)](http://3dv19.gel.ulaval.ca/)
 ___
 
 # Data
