@@ -13,6 +13,9 @@ class NullVisualizer(object):
 
     def show_images(self, images, title):
         pass
+    
+    def update_epoch(self, epoch):
+        pass 
 
 class VisdomPlotVisualizer(object):
     def __init__(self, name, server="http://localhost"):
@@ -42,6 +45,9 @@ class VisdomPlotVisualizer(object):
 
     def config(self, **kwargs):
         self.visualizer.text(json2html.convert(json=dict(kwargs)))
+    
+    def update_epoch(self, epoch):
+        pass 
 
 class VisdomImageVisualizer(object):
     def __init__(self, name, server="http://localhost", count=2):
