@@ -6,6 +6,9 @@
 ___
 
 # Data
+
+> ![IMPORTANT](https://img.shields.io/badge/IMPORTANT-DATA_UPDATE-C70039?style=plastic&logo=dataversioncontrol&logoWidth=40&logoColor=C70039) An updated dataset is now available which fixes a critical issue with 3D60, the lighting bias introduced by the light source placed at the origin. More information can be found at the [Pano3D project page](https://vcl3d.github.io/Pano3D/).
+> 
 The 360<sup>o</sup> stereo data used to train the self-supervised models are available [here](https://vcl3d.github.io/3D60/) and are part of a larger dataset __\[[1](#OmniDepth), [2](#HyperSphere)\]__ that contains rendered color images, depth and normal maps for each viewpoint in a trinocular setup.
 
 ___
